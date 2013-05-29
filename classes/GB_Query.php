@@ -14,6 +14,9 @@ class GB_Query extends Group_Buying_Controller {
 	}
 
 	public static function filter_merchants_based_on_location( $query ) {
+		if ( is_admin() )
+			return;
+
 		if ( !function_exists('gb_has_location_preference') || !gb_has_location_preference() )
 			return;
 
