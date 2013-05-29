@@ -1,14 +1,6 @@
-Shortcodes
-==========
+Installation
+------------
 
-Shortcodes need to be added the pages along the steps.
-
-[merchant_registration_form] - dynamic registration page that will add account/user fields if not already logged in.
-[options_form] - adds the package option forum
-[detailed_business_info_form] - adds the merchant details form.
-
-
-Pages
-=====
-
-Page urls for each step (when the add-on redirects) at the top of the classes/GBS_Registration.php class.
+1. Upload and activate plugin.
+2. Go to Group Buying > Add-ons and activate the Merchant Locations Add-on.
+3. Once activated, configure your merchants to include a location.

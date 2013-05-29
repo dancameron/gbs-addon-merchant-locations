@@ -9,7 +9,7 @@ class GB_Query extends Group_Buying_Controller {
 
 	public static function remove_merchants_from_location_taxonomy( $query ) {
 		if ( $query->is_tax( Group_Buying_Deal::LOCATION_TAXONOMY ) ) {
-			//$query->query_vars['post_type'] = Group_Buying_Deal::POST_TYPE;
+			$query->query_vars['post_type'] = Group_Buying_Deal::POST_TYPE;
 		}
 	}
 
